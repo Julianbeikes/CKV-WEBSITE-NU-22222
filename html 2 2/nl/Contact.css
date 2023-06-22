@@ -1,0 +1,286 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*Nav Bar*/
+  
+  body {
+    margin: 0;
+    background: rgba(34, 34, 34, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .englishlogo {
+    width: 50px;
+    height: 25px;
+    margin: -5px;
+  }
+  
+  .logo {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 5px;
+    margin-left: -125px;
+  }
+  
+  header p {
+    color: white;
+    padding-top: 25px;
+    margin: 0px;
+    margin-bottom: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    position: sticky;
+  }
+  
+  header {
+    background: rgb(0, 0, 0);
+    border-bottom: 2px solid orange;
+  }
+  
+  header::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .logo {
+    float: left;
+    padding: 0px 0;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 5vw;
+    padding-top: 23px;
+  
+    position: relative;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  nav a:hover {
+    color: orange;
+  }
+  
+  nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: orange;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 150ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+  
+  /*Fixed Footer*/
+  
+  footer {
+    color: white;
+    background-color: #000;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid orange;
+  }
+  
+  main {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    padding-bottom: 100px;
+    color: white;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .YouTube {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: -45px;
+    margin-left: 10px;
+  }
+  
+  .footerveralogo {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: -45px;
+    margin-left: 60px;
+  }
+  
+  /*Videos-Right*/
+  
+  .box {
+    float: right;
+    position: relative;
+    width: 200px;
+    height: 407px;
+    margin-top: 10%;
+    padding: 0;
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+    border-bottom: 2px solid orange;
+  }
+  
+  .Video1 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    border-bottom: 2px solid orange;
+  }
+  
+  .Video2 {
+    width: 200px;
+    height: 100px;
+    border-bottom: 2px solid orange;
+    margin-top: -5px;
+  }
+  
+  .Video3 {
+    width: 200px;
+    height: 100px;
+    border-bottom: 2px solid orange;
+    margin-top: -3px;
+  }
+  
+  .Video4 {
+    width: 200px;
+    height: 100px;
+    margin-top: -3px;
+  }
+  
+  /*Latest Work*/
+  
+  .recent-foto {
+    float: left;
+    position: relative;
+    height: 407px;
+    margin-top: 10%;
+    padding: 0;
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+    border-bottom: 2px solid orange;
+  }
+  
+  .meest-recente-foto {
+    height: 407px;
+    margin-bottom: 0px;
+  }
+  
+  /*Central Text*/
+  
+  .info {
+    float: right;
+    margin-top: 20%;
+    margin-right: -7%;
+    width: 500px;
+    max-height: 1000px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .welkom {
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 75px;
+    position: relative;
+    margin: 0% 11%;
+    margin-bottom: 0px;
+  }
+  
+  .informatie {
+    position: relative;
+    padding: 5%;
+    padding-top: 0;
+    margin: 10%;
+    font-size: 17px;
+  }
+  .GoogleMaps{
+    float: left;
+    height: 52vh;
+    margin-top: 10%;
+    padding: 0;
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+    border-bottom: 2px solid orange;
+    width: 40vw;
+    margin-left: -20vw;
+    }
+
+    main iframe{
+        width: 99%;
+        height: 99%;
+    }
+   
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  border: 2px solid orange;
+}
+input[type=submit] {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.form {
+  width: 50%;
+  border-radius: 5px;
+  background-color:rgba(34, 34, 34, 0.959);
+  padding: 20px;
+  float: right;
+  border: 2px solid orange;
+  margin-top: 10%;
+  margin-right: -8vw;  
+  margin-bottom: 10%;
+  
+} 

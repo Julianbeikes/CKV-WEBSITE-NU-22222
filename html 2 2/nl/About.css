@@ -1,0 +1,198 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Nav Bar*/
+
+body {
+  margin: 0;
+  background: rgba(34, 34, 34, 0.959);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+
+.englishlogo {
+  width: 50px;
+  height: 25px;
+  margin: -5px;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  margin: 5px;
+  margin-left: -125px;
+}
+
+header p {
+  color: white;
+  padding-top: 25px;
+  margin: 0px;
+  margin-bottom: -50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  position: sticky;
+}
+
+header {
+  background: rgb(0, 0, 0);
+  border-bottom: 2px solid orange;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 0px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5vw;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: orange;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 150ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/*Fixed Footer*/
+
+footer {
+  color: white;
+  background-color: #000;
+  padding: 5px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid orange;
+}
+
+main {
+  float: right;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: -40%;
+  padding: 30px 20px;
+  padding-bottom: 100px;
+  color: white;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+.YouTube {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: -45px;
+  margin-left: 10px;
+}
+
+.footerveralogo {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: -45px;
+  margin-left: 60px;
+}
+
+/* krantenartikel*/
+
+.krantenartikel {
+  position: relative;
+  margin-top: 1%;
+  width: 18.75em;
+  height: 35.95em;
+  padding: 0;
+  border-bottom: 2px solid orange;
+  border-top: 2px solid orange;
+  border-right: 2px solid orange;
+}
+
+.de-krant {
+  position: absolute;
+  width: 100%;
+}
+
+.titel {
+  color: orange;
+  width: 500px;
+  max-height: 1000px;
+  align-items: center;
+  justify-content: center;
+}
+
+.p1 {
+  padding: 0 5% 0 2%;
+}
+.p2 {
+  padding: 0 5% 0 2%;
+}
+.p3 {
+  padding: 0 5% 0 2%;
+}
+.kopje1 {
+  color: orange;
+}
+.kopje2 {
+  color: orange;
+}
+
+.info {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin-left: -20%;
+}
